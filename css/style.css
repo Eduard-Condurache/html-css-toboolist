@@ -1,6 +1,4 @@
-/* 
-    RESET
-*/
+    /*  RESET   */
 
 * {
     padding: 0;
@@ -9,24 +7,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 
-    GENERAL
-*/
+    /*   GENERAL   */
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
-.centered-content {
+.left-margin {
     margin-left: 40px ;
-}
-
-.button {
-    border-radius: 15px;
-    padding: 8px 15px 8px 15px;
-    color: white;
-    border: 0;
 }
 
 .section-spacing{
@@ -34,22 +23,10 @@
 }
 
 .content-spacing {
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
-.text-spacing {
-    padding-bottom: 20px;
-    font-weight: bolder;
-    font-size: 1.5em;
-}
-
-.text-style {
-    font-size: 1.25em;
-}
-
-/* 
-    HEADER
-*/
+    /*  HEADER  */
 
 header {
     padding: 10px;
@@ -62,24 +39,31 @@ header h1 {
 
 h1 {
     display: inline;
+    font-size: 2.5em;
 }
 
-/* 
-    MAIN
-*/
+    /*  MAIN  */
 
 main {
     background-color: #f6f8f9;
     padding: 20px 0;
+    padding-top: 50px;
 }
 
-.task-container {
+.main-content {
     background-color: white;
     padding: 20px;
+    padding-bottom: 25px;
     border-radius: 5px 5px 0px 0px;
 }
 
-.buttons {
+.main-bottomborder {
+    border-radius: 0px 0px 5px 5px;
+}
+
+    /* SUBMIT BUTTONS */
+
+.submit-buttons {
     border: 1px solid #cdd1d6;
     border-radius: 5px;
     padding: 10px 15px;
@@ -88,8 +72,7 @@ main {
 
 .button-addtask {
     background-color: #47adf1;
-    color: white;
-    
+    color: white;   
 }
 
 .button-selection {
@@ -97,25 +80,79 @@ main {
     color: #cdd1d6;
 }
 
-.full-width-border {
+.grey-line {
     background-color:#f6f8f9;
     width: 100%;
     height: 2px;
 }
 
-.border-radius {
-    border-radius: 0px 0px 5px 5px;
+    /* TEXT STYLING */
+
+.text-spacing {
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+    
+.text-style {
+    font-size: 1.25em;
+    padding-left: 10px;
+}
+
+    /* CIRCLE STYLING*/
+
+.circle-icon {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.80em;
+    font-weight: bold;
 }
 
 .circle-check {
-    border: 2px solid #64c0a9;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
+    border-color: #64c0a9;
     color: #64c0a9;
-    display: inline-block;
 }
 
+.circle-cross {
+    border-color: red;
+    color: red;
+}
 
+    /* BUTTONS TODOLIST */
+
+.buttons {
+    border-radius: 15px;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border: 0;
+}
+/*     BUTTONS TODOLIST COLOR   */
+
+.button-colorlightblue {
+    background-color: #47adf1;
+}
+
+.button-colorpurple {
+    background-color:#9c72e4;
+}
+
+.button-colorgreen {
+    background-color: #64c0a9;
+}
+
+.button-colorlightgreen {
+    background-color: #b0c926;
+}
+
+.button-colorpink {
+    background-color: #d863a1;
+}
+
+.button-colororange {
+    background-color: #f29e33;
+}
