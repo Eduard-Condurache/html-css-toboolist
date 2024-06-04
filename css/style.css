@@ -30,7 +30,7 @@
 }
 
 .section-spacing{
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 .content-spacing {
@@ -38,7 +38,13 @@
 }
 
 .text-spacing {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.text-style {
+    font-size: 1.25em;
 }
 
 /* 
