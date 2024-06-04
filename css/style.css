@@ -29,6 +29,18 @@
     border: 0;
 }
 
+.section-spacing{
+    padding-top: 35px;
+}
+
+.content-spacing {
+    padding-top: 25px;
+}
+
+.text-spacing {
+    padding-bottom: 25px;
+}
+
 /* 
     HEADER
 */
